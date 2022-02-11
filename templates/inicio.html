@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title> Mi primera pagina web </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <h1> Hola Mundo </h1>
+        <a href="{{ url_for('inicio')}}">Inicio</a>
+        <a href="{{ url_for('contacto')}}">Contacto</a>
+        <h2> Mi nombre es Melissa Ayala</h2>
+        <h3> Estoy en Penguin porque quiero aprender para poder enseñar luego a más personas lo aprendido.</h3>
+
+        <img src="static/perrito.webp" alt="perrito con lentes" width="400" height="300">
+
+    </body>
+</html>
